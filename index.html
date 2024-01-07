@@ -5,100 +5,130 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>The Wild Animal Mini-Zoo</title>
 </head>
 
 <body>
-    <h1>Zoo Animals</h1>
+    <div class="background">
+        <!--page title-->
+        <div id="h1">
+            <h1 id="zoo-h1">Zoo</h1>
+            <h1 id="animal-h1">Animals</h1>
+        </div>
 
-    <section>
-        <h2>Bears</h2>
-        <!-- image of a brown (grizzly) bear and her cubs -->
-        <img src="https://en.euractiv.eu/wp-content/uploads/sites/2/2021/07/ro-3-800x450.jpg" alt="mamma bear and cubs">
+        <section>
+            <div id="bears">
+                <h2>Bears</h2>
+                <!-- image of mamma bear and cub -->
+                <img class="bear-img" src="./assets/images/mamma bear and cub.jpg" alt="mamma bear and cub">
+            </div>
 
 
-        <!-- names of bears at our zoo -->
-        <ul>
-            <li>Ollie</li>
-            <li>Mona</li>
-        </ul>
+                <!-- names of bears at our zoo -->
+                <ul id="bear-names">
+                    <li>Ollie</li>
+                    <li>Mona</li>
+                </ul>
+            
 
-        <!-- short summary about bears -->
-        <summary>
-            <p>Bears, a small group of mostly large omnivorous mammals, can be found all over the
-                world; they live in forests, mountains, tundra, deserts and grassy areas. Though
-                there are different types of bear, all bear species have similarities. They all have
-                stocky, fur-covered bodies; short legs; and a round head with a long snout. There are
-                eight species of bear: American black bear, Asiatic black bear, brown bear, giant
-                panda bear, polar bear, spectacled bear, sloth bear and sun bear.</p>
-        </summary>
+            <!-- short summary about bears -->
+            <div id="bear-sum">
+                <summary>
+                    
+                        <p>Bears, a small group of mostly large omnivorous mammals, can be found</p>
+                        <p>all over the world. They live in forests, mountains, tundra, deserts</p>
+                        <p>and grassy areas. Though there are different types of bear, all bear</p>
+                        <p>species have similarities. They all have stocky, fur-covered bodies,</p>
+                        <p>short legs, and a round head with a long snout. There are eight species</p>
+                        <p>of bear: American black bear, Asiatic black bear, brown bear, giant</p>
+                        <p>panda bear, polar bear, spectacled bear, sloth bear and sun bear.</p>
+                   
+                </summary>
 
-        <!-- url link to get more info about bears -->
-        <a href="https://www.livescience.com/27647-bears.html">Go here to learn more!</a>
-    </section>
-    <section>
-        <h2>Giraffes</h2>
-        <!-- image of two giraffes hugging -->
-        <img src="https://images.theconversation.com/files/90895/original/image-20150805-22491-6rnea5.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip"
-            alt="giraffe couple">
+                <!-- url link to get more info about bears -->
+                <a id="bear-link" href="https://www.livescience.com/27647-bears.html">Click here to learn more</a>
+            </div>
+        </section>
 
-        <!-- names of giraffes at our zoo -->
-        <ul>
-            <li>Frankie</li>
-            <li>Coconut</li>
-        </ul>
 
-        <!-- short summary about giraffes -->
-        <summary>
-            <p>Giraffes, (genus Giraffa) are long-necked, cud-chewing, hoofed mammals of Africa,
-                with long legs and a coat pattern of irregular brown patches on a light background.
-                Giraffes are the tallest of all land animals; males (bulls) may exceed 5.5 metres
-                (18 feet) in height, and the tallest females (cows) are about 4.5 metres. Using
-                prehensile tongues almost half a metre long, they are able to browse foliage almost
-                six metres from the ground.</p>
-        </summary>
+        <section>
+            <div id="giraffes">
+                <h2>Giraffes</h2>
+                <!-- image of two giraffes hugging -->
+                <img class="giraffe-img" src="https://images.theconversation.com/files/90895/original/image-20150805-22491-6rnea5.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=926&fit=clip"
+                    alt="giraffe couple">
 
-        <!-- url link to get more info about giraffes -->
-        <a href="https://www.britannica.com/animal/giraffe">Go here to learn more!</a>
-    </section>
-    <section>
+                <!-- names of giraffes at our zoo -->
+                <ul>
+                    <li>Frankie</li>
+                    <li>Coconut</li>
+                </ul>
+            </div>
+            <!-- short summary about giraffes -->
+            <div id="giraffe-sum">
+                <summary>
+                    <span>
+                        <p>Giraffes, (genus Giraffa) are long-necked, cud-chewing, hoofed mammals of Africa,</p>
+                    </span>
+                    <span>
+                        <p>with long legs and a coat pattern of irregular brown patches on a light background.</p>
+                    </span>
+                    <span>
+                        <p> Giraffes are the tallest of all land animals; males (bulls) may exceed 5.5 metres</p>
+                    </span>
+                    <span>
+                        <p>(18 feet) in height, and the tallest females (cows) are about 4.5 metres. Using</p>
+                    </span>
+                    <span>
+                        <p>prehensile tongues almost half a metre long, they are able to browse foliage almost</p>
+                    </span>
+                    <span>six metres from the ground.</p></span>
+                </summary>
+
+                <!-- url link to get more info about giraffes -->
+                <a href="https://www.britannica.com/animal/giraffe">Click here to learn more!</a>
+            </div>
+        </section>
+
+        <!-- <section>
         <h2>Lions</h2>
-        <!-- image of Simba on Pride Rock-->
+        image of Simba on Pride Rock
         <img src="https://decider.com/wp-content/uploads/2019/07/the-lion-king-1.jpg?quality=75&strip=all&w=646&h=431&crop=1" alt="lion and lioness">
 
-        <!-- names of lions at our zoo -->
+        names of lions at our zoo
         <ul>
             <li>Mella</li>
             <li>Karl</li>
         </ul>
 
-        <!-- short summary about lions -->
+        short summary about lions
         <summary>
-            <p>Lion, (Panthera leo), is a large, powerfully built cat (family Felidae) that
+           <span><p>Lion, (Panthera leo), is a large, powerfully built cat (family Felidae) that
                 is second in size only to the tiger. They are most active at night and live
                 in a variety of habitats but prefer grassland, savanna, dense scrub, and open
                 woodland. Historically, they ranged across much of Europe, Asia, and Africa,
-                but now they are found mainly in parts of Africa south of the Sahara.</p>
+                but now they are found mainly in parts of Africa south of the Sahara.</p></span>
         </summary>
 
-        <!-- url link to get more info about lions -->
-        <a href="https://www.britannica.com/animal/lion">Go here to learn more!</a>
+        url link to get more info about lions
+        <a href="https://www.britannica.com/animal/lion">Click here to learn more!</a>
     </section>
     <section>
         <h2>Monkeys</h2>
 
-        <!-- image of a monkey in a tree -->
+        image of a monkey in a tree
         <img src="https://www.si.edu/sites/default/files/newsdesk/press_releases/thumbnail_45.jpg"
             alt="monkey in a tree">
 
-        <!-- names of monkeys at our zoo -->
+        names of monkeys at our zoo
         <ul>
             <li>Cookie</li>
             <li>Earl</li>
             <li>Banana Pudding</li>
         </ul>
 
-        <!-- short summary about monkeys -->
+        short summary about monkeys
         <summary>
             <p>Monkeys are a large and diverse mammal group that includes most primates.
                 Humans, chimpanzees (Pan troglodytes) and other apes share an ancestor
@@ -107,23 +137,23 @@
                 apes and usually have tails, which apes lack.</p>
         </summary>
 
-        <!-- url link to get more info about monkeys -->
-        <a href="https://www.livescience.com/27944-monkeys.html">Go here to learn more!</a>
+        url link to get more info about monkeys
+        <a href="https://www.livescience.com/27944-monkeys.html">Click here to learn more!</a>
     </section>
     <section>
         <h2>Alligators</h2>
 
-        <!-- image of an alligator on water -->
+        image of an alligator on water
         <img src="https://static01.nyt.com/images/2020/01/21/science/17TB-ALLIGATORCARCASS02/merlin_167281935_3d84ce94-0193-49b9-9153-ba075cb7cb45-jumbo.jpg?quality=75&auto=webp"
             alt="alligator in water">
-             <!-- names of alligators at our zoo -->
+             names of alligators at our zoo
         <ul>
             <li>Wren</li>
             <li>Aspen</li>
             <li>Mika</li>
         </ul>
 
-        <!-- short summary about alligators -->
+        short summary about alligators
         <summary>
             <p>American alligators are large crocodilians found only in the United States.
                 They can grow to be more than 12 feet (3.6 meters) in length and weigh as
@@ -132,11 +162,11 @@
                 scales called scutes.</p>
         </summary>
 
-        <!--url link to get more info about monkeys -->
-        <a href="https://www.nwf.org/Educational-Resources/Wildlife-Guide/Reptiles/American-Alligator">Go here to learn
+        url link to get more info about monkeys
+        <a href="https://www.nwf.org/Educational-Resources/Wildlife-Guide/Reptiles/American-Alligator">Click here to learn
             more!</a>
-    </section>
-
+    </section> -->
+    </div>
 </body>
 
 </html>

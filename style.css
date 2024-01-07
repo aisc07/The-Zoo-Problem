@@ -1,0 +1,149 @@
+/*COLOR SCHEME*/
+colorscheme{
+   color:#373127;
+   color:#D08956;
+   color:#497B05;
+   color:#97B5D5;
+   color:#F0F8EB;
+}
+
+
+body{
+   background-color:#97B5D5;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin-left:15%;
+   margin-right:15%;
+}
+
+.background{
+    background-color:#F0F8EB;
+}
+
+#h1{
+    text-align: center;
+    margin-top: -7em;
+}
+
+#zoo-h1{
+    background-color:#497B05;
+    font-size:10em;
+    letter-spacing: 0.8rem;
+    color:#373127;
+    margin-bottom: -0.50em;
+    padding-top: 0.2em;    
+}
+
+#animal-h1{
+    background-color:#373127;
+    font-size: 3em;
+    color:#497B05;
+    letter-spacing: 1em;
+    padding-bottom: 0.2em;  
+    margin-top: 0.6em;
+}
+
+/*BEARS*/
+.bear-img:hover{
+    height:35em;
+    width:35em;
+}
+
+.bear-img{
+    float:right;
+    border-radius: 50%;
+    height: 30em;
+    width: 30em; 
+    border-width: 1em;
+    border-style: double;
+    border-color:#97B5D5;
+    margin-right:13em;
+    margin-top: -3em;
+
+}
+
+#bears{
+    margin-top: 10em;
+    text-indent:4em;
+}
+
+/* 
+ul{
+
+ } */
+
+#bear-names{
+    text-align: right;
+    margin-top: 25em;
+    margin-right: 16.5em;
+    list-style: none;
+    font-size: 1.6rem;
+    font-weight: normal;
+}
+
+h2{
+    text-align: left;
+    text-indent:2.5em;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+#bear-sum{   
+    text-align: justify;
+    text-indent: 4em;
+    font-size: 2em;
+    margin-top: -20em;
+}
+
+#bear-link{
+    font-size: 0.8em;
+    margin-left:5em;
+    /* text-indent:4em ; */
+}
+
+
+
+
+
+
+
+
+
+
+.giraffe-img{
+    float:left;
+    border-radius: 50%;
+    height: 30rem;
+    width: 30rem; 
+    border-width: 0.5em;
+    border-style: solid;
+    border-color: black;
+    margin-top:5em
+}
+
+
+
+
+
+
+
+
+
+
+
+summary{
+    font-size: 0.8em; 
+}
+
+
+
+
+/*GIRAFFES*/
+
+#giraffes{
+    margin-top: 10em;
+}
+
+#giraffe-sum{
+    text-align: justify;
+    font-size: 2em; 
+}
