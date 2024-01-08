@@ -1,8 +1,10 @@
 /*COLOR SCHEME*/
 colorscheme{
    color:#373127;
+   color:#D1A85D;
    color:#D08956;
    color:#497B05;
+   color:#A9B45F;
    color:#97B5D5;
    color:#F0F8EB;
 }
@@ -25,7 +27,7 @@ body{
 }
 
 #zoo-h1{
-    background-color:#497B05;
+    background-color:#A9B45F;
     font-size:10em;
     letter-spacing: 0.8rem;
     color:#373127;
@@ -36,45 +38,39 @@ body{
 #animal-h1{
     background-color:#373127;
     font-size: 3em;
-    color:#497B05;
+    color:#A9B45F;
     letter-spacing: 1em;
     padding-bottom: 0.2em;  
     margin-top: 0.6em;
 }
 
 /*BEARS*/
-.bear-img:hover{
-    height:35em;
-    width:35em;
+#bear-img:hover{
+    height:28.5em;
+    width:28.5em;
 }
 
-.bear-img{
+#bear-img{
     float:right;
     border-radius: 50%;
-    height: 30em;
-    width: 30em; 
+    height: 27em;
+    width: 27em; 
     border-width: 1em;
     border-style: double;
     border-color:#97B5D5;
     margin-right:13em;
-    margin-top: -3em;
+    margin-top: -6em;
 
 }
 
-#bears{
-    margin-top: 10em;
-    text-indent:4em;
+#bears-title{
+    margin-top: 3em;
 }
-
-/* 
-ul{
-
- } */
 
 #bear-names{
     text-align: right;
-    margin-top: 25em;
-    margin-right: 16.5em;
+    margin-top: 17em;
+    margin-right: 16em;
     list-style: none;
     font-size: 1.6rem;
     font-weight: normal;
@@ -85,19 +81,19 @@ h2{
     text-indent:2.5em;
     font-size: 3rem;
     font-weight: bold;
+    color:#373127;
 }
 
 #bear-sum{   
     text-align: justify;
     text-indent: 4em;
     font-size: 2em;
-    margin-top: -20em;
+    margin-top: -14.5em;
 }
 
 #bear-link{
     font-size: 0.8em;
     margin-left:5em;
-    /* text-indent:4em ; */
 }
 
 
