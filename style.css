@@ -31,8 +31,9 @@ body{
     font-size:10em;
     letter-spacing: 0.8rem;
     color:#373127;
+    margin-top: 0.4em;
     margin-bottom: -0.50em;
-    padding-top: 0.2em;    
+    padding-top: 0.2em; 
 }
 
 #animal-h1{
@@ -46,49 +47,46 @@ body{
 
 /*BEARS*/
 #bear-img:hover{
-    height:28.5em;
-    width:28.5em;
+    height:23em;
+    width:23em;
 }
 
 #bear-img{
     float:right;
     border-radius: 50%;
-    height: 27em;
-    width: 27em; 
+    height: 22em;
+    width: 22em; 
     border-width: 1em;
     border-style: double;
     border-color:#97B5D5;
-    margin-right:13em;
+    margin-right:8em;
     margin-top: -6em;
 
 }
 
 #bears-title{
     margin-top: 3em;
+    text-align: left;
+    text-indent: 2.5em;
+    font-size: 2.7rem;
+    font-weight: bold;
+    color:#373127;
 }
 
 #bear-names{
     text-align: right;
-    margin-top: 17em;
+    margin-top: 18.5em;
     margin-right: 16em;
     list-style: none;
-    font-size: 1.6rem;
+    font-size: 1.2em;
     font-weight: normal;
-}
-
-h2{
-    text-align: left;
-    text-indent:2.5em;
-    font-size: 3rem;
-    font-weight: bold;
-    color:#373127;
 }
 
 #bear-sum{   
     text-align: justify;
     text-indent: 4em;
-    font-size: 2em;
-    margin-top: -14.5em;
+    font-size: 1.7em;
+    margin-top: -13.5em;
 }
 
 #bear-link{
