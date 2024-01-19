@@ -7,13 +7,25 @@ colorscheme{
    color:#A9B45F;
    color:#97B5D5;
    color:#F0F8EB;
+
+   /* IT'S A REA: ZOO OUT THERE */
+   color: #39312E;
+   color: #FFBD49;
+   color: #FFFD63;
+   color: #92F759;
+   color: #3CE6AB;
+
 }
 
 
 body{
-   background-color:#97B5D5;
+   background-color:#3CE6AB;
    margin-left:15%;
    margin-right:15%;
+}
+
+summary{
+    font-size: 0.8em; 
 }
 
 .background{
@@ -27,34 +39,34 @@ body{
 }
 
 #zoo-h1{
-    background-color:#497B05;
+    background-color:#92F759;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size:10.5em;
     letter-spacing: 0.8rem;
-    color:#D1A85D;
+    color:#39312E;
     margin-top: 0.66em;
     margin-bottom: -0.45em;
     -webkit-text-stroke-width: 0.06em;
-    -webkit-text-stroke-color:#497B05;
+    -webkit-text-stroke-color:#92F759;
 }
 
 #animal-h1{
-    background-color:#373127;
+    background-color:#FFBD49;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2.3em;
-    color:#D1A85D;
+    color:#FFFD63;
     letter-spacing: 1.5em;
     padding-top: 0.7em;
     padding-bottom: 0.1em;
     margin-top: 0.6em;
     -webkit-text-stroke-width: 0.07em;
-    -webkit-text-stroke-color:#373127;
-    border-color:#497B05;
+    -webkit-text-stroke-color:#FFBD49;
+    /* border-color:#3CE6AB;
     border-width: 1.3em;
     border-top-style: none;
     border-left-style: solid;
     border-right-style: solid;
-    border-bottom-style: double;
+    border-bottom-style: double; */
 }
 
 /*BEARS*/
@@ -118,16 +130,6 @@ body{
 
 
 
-.giraffe-img{
-    float:left;
-    border-radius: 50%;
-    height: 30rem;
-    width: 30rem; 
-    border-width: 0.5em;
-    border-style: solid;
-    border-color: black;
-    margin-top:5em
-}
 
 
 
@@ -139,20 +141,40 @@ body{
 
 
 
-summary{
-    font-size: 0.8em; 
-}
 
 
 
 
 /*GIRAFFES*/
 
-#giraffes{
-    margin-top: 10em;
+#giraffe-title{
+    margin-top: 2em;
+    text-align: right;
+    text-indent: -5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2.7rem;
+    font-weight: bold;
+    color:#373127;
 }
+
+
+#giraffe-img{
+    float:left;
+    border-radius: 50%;
+    height: 24em;
+    width: 26em; 
+    border-width: 0.8em;
+    border-style: solid;
+    border-color:#A9B45F;
+    margin-top:5em;
+    margin-left:4em;
+}
+
 
 #giraffe-sum{
     text-align: justify;
-    font-size: 2em; 
+    margin-right: 2em;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    /* margin-top: -15.5em; */
 }
