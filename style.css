@@ -1,30 +1,23 @@
 /*COLOR SCHEME*/
-colorscheme{
-   color:#373127;
-   color:#D1A85D;
-   color:#D08956;
-   color:#497B05;
-   color:#A9B45F;
-   color:#97B5D5;
-   color:#F0F8EB;
-}
+/* colorscheme{
+   
+} */
 
 
 body{
-   background-color:#669900;
+   background-color:#346751;
    margin-left:15%;
    margin-right:15%;
 }
 
 summary{
     font-size: 0.8em;
-    color:#333333;
 }
 
-.background{
-    background-color:#F0F8EB;
+/* .background{
+    background-color:#346751;
     height: 15px;
-}
+} */
 
 #page-title{
     text-align: center;
@@ -32,40 +25,41 @@ summary{
 }
 
 #zoo-title{
-    background-color:#669900;
+    background-color:#346751;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size:12.5em;
     letter-spacing: 0.8rem;
-    color:#d9d9da;
+    color:#ECDBBA;
     margin-top: 0.66em;
     margin-bottom: -0.45em;
     -webkit-text-stroke-width: 0.06em;
-    -webkit-text-stroke-color:#669900;
+    -webkit-text-stroke-color:#346751;
 }
 
 #animal-title{
-    background-color:#333333;
+    background-color:#C84B31;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 2.5em;
-    color:#f8cd23;
+    color:#161616;
     letter-spacing: 1.5em;
     padding-top: 0.7em;
     padding-bottom: 0.1em;
     margin-top: 0.6em;
     -webkit-text-stroke-width: 0.07em;
-    -webkit-text-stroke-color:#333333;
-    border-color:#669900;
-    border-width: 1.3em;
+    -webkit-text-stroke-color:#C84B31;
+    /* border-color:#161616;
+    border-width: 0.1em;
     border-top-style: none;
     border-left-style: none;
     border-right-style: none;
-    border-bottom-style: double;
+    border-bottom-style: groove; */
 }
 
 /*BEARS*/
 #bear-section{
-    background-color:#669900;
+    background-color:#346751;
     height:30em;
+   
     /* padding-top: 0.5em; */
     /* padding-top:0.1em;z */
 }
@@ -75,9 +69,9 @@ summary{
     border-radius: 50%;
     height: 24em;
     width: 26em; 
-    border-width: 0.8em;
+    /* border-width: 0.3em;
     border-style: solid;
-    border-color:#333333;
+    border-color:#C84B31; */
     margin-right:8em;
     margin-top: -5em;
 
@@ -90,7 +84,7 @@ summary{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 2.7rem;
     font-weight: bold;
-    color:#333333;
+    color:#ECDBBA;
 }
 
 #bear-names{
@@ -100,7 +94,7 @@ summary{
     list-style: none;
     font-size: 1.2em;
     font-weight: normal;
-    color:#333333;
+    color:#ECDBBA;
 }
 
 #bear-sum{   
@@ -109,16 +103,17 @@ summary{
     font-family:Arial, Helvetica, sans-serif;
     font-size: 1.5em;
     margin-top: -16.5em;
+    color:#161616
 }
 
 #bear-link:hover{
-    color:#d9d9da;
+    color:#ECDBBA;
 }
 
 #bear-link{
     font-size: 0.8em;
     margin-left:5em;
-    color:#333333;
+    color:#ECDBBA;
 }
 
 /*GIRAFFES*/
