@@ -9,33 +9,22 @@ summary{
     font-size: 0.8em;
 }
 hr{
-    margin-top: 10em;
+    margin-top: -5em;
 }
 .background{
     background-color:white;
-    height: 300em; 
+    height: 350em; 
     padding-top: 3em;
 }
 
-footer{
-    margin-top: 18em;
-    text-align: center;
-    font-size: 1.2em;
-    color:#FEDBB2;
-    font-weight: bolder;
-}
-
-#page-title{
+#main-title{
     text-align: center;
     margin-top: -13em;
 }
 
 #zoo-title{
-    /* margin-left: auto;
-    margin-right: auto; */
+
     background-color: none;
-    /* height:0em;
-    width: 0em; */
     font-family: cursive;
     font-size: 12.5em;
     letter-spacing: 0.8rem;
@@ -51,11 +40,11 @@ footer{
     font-family: cursive;
     font-size: 2.5em;
     color:white;
-    letter-spacing: 1.5em;
+    letter-spacing: 2em;
     padding-top: 0.7em;
     padding-bottom: 0.1em;
     margin-top: 0.6em;
-    -webkit-text-stroke-width: 0.10em;
+    -webkit-text-stroke-width: 0.05em;
     -webkit-text-stroke-color: black;
     /* border-color:white;
     border-width: 0.2em;
@@ -69,15 +58,14 @@ footer{
 /*GIRAFFE, MONKEY*/
 #giraffe-section, #monkey-section{
     height: 40em;
-    padding-top: 1em; 
 }
 
 #giraffe-title, #monkey-title{
-    margin-top: 2.8em;
+    margin-top: 5em;
     margin-right: 11em;
     text-align: right;
     font-family: cursive;
-    font-size: 2.5em;
+    font-size: 2em;
     letter-spacing: 0.5em;
     color:#161616;
 }
@@ -85,7 +73,7 @@ footer{
 #giraffe-img, #monkey-img{
     float:left;
     border-radius: 50%;
-    height: 26em;
+    height: 24em;
     width: 28em; 
     margin-top: -6em;
     margin-left:6.5em;
@@ -130,11 +118,11 @@ footer{
 }
 
 #bear-title, #lion-title, #alligator-title{
-    margin-top: 3.5em;
+    margin-top: 5em;
     text-align: left;
-    text-indent: 2.4em;
+    text-indent: 3em;
     font-family: cursive;
-    font-size: 2.5em;
+    font-size: 2em;
     letter-spacing: 0.5em;
     color:#161616;
 }
@@ -142,10 +130,10 @@ footer{
 #bear-img, #lion-img, #alligator-img{
     float:right;
     border-radius: 50%;
-    height: 26em;
+    height: 24em;
     width: 28em; 
     margin-right: 6.8em;
-    margin-top: -8em;
+    margin-top: -6em;
     box-shadow: 10px 10px 12px -2px grey;
 }
 
@@ -165,7 +153,7 @@ footer{
     text-indent: 4em;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 1.5em;
-    margin-top: -13.8em;
+    margin-top: -15.5em;
     color:black;
 }
 
