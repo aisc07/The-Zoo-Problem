@@ -10,9 +10,11 @@ summary{
 }
 hr{
     margin-top: -5em;
+    height: 0.3em;
+    background-color: black;
 }
 .background{
-    background-color:white;
+    background-color: white;
     height: 350em; 
     padding-top: 3em;
 }
@@ -41,17 +43,17 @@ hr{
     font-size: 2.5em;
     color:white;
     letter-spacing: 2em;
-    padding-top: 0.9em;
-    padding-bottom: 0.1em;
-    margin-top: 0.6em;
-    -webkit-text-stroke-width: 0.05em;
+    padding-top: 1em;
+    padding-bottom: 0.4em;
+    margin-top: 1em;
+    -webkit-text-stroke-width: 0.08em;
     -webkit-text-stroke-color: black;
-     border-color:white;
-    border-width: 0.18em;
-    border-bottom-style: dashed;
-    border-left-style: dashed;
-    border-right-style: dashed;
-    border-top-style: dashed;
+     border-color: white;
+    border-width: 0.5em;
+    border-bottom-style: double;
+    /* border-left-style: double; */
+    /* border-right-style: double; */
+    /* border-top-style: double; */
 }
 
 
@@ -62,10 +64,10 @@ hr{
 
 #giraffe-title, #monkey-title{
     margin-top: 5em;
-    margin-right: 11em;
+    margin-right: 7.7em;
     text-align: right;
     font-family: cursive;
-    font-size: 2em;
+    font-size: 2.4em;
     letter-spacing: 0.5em;
     color:#161616;
 }
@@ -76,7 +78,7 @@ hr{
     height: 24em;
     width: 28em; 
     margin-top: -6em;
-    margin-left:6.5em;
+    margin-left: 6.5em;
     box-shadow: 10px 10px 12px -2px grey;
 }
 
@@ -84,14 +86,14 @@ hr{
 #giraffe-sum, #monkey-sum{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5em;
-    margin-top: -15.5em;
-    margin-left: 25em;
+    margin-top: -14.5em;
+    margin-left: 29em;
     margin-bottom: 4em;
 }
 
 #giraffe-names, #monkey-names{
     text-align: left;
-    margin-top: 19em;
+    margin-top: 17em;
     margin-left: 13em;
     list-style: none;
     font-size: 1.2em;
@@ -103,8 +105,9 @@ hr{
 }
 
 #giraffe-link, #monkey-link{
-    text-indent: 34.3em;
-    margin-top: -2em;
+    text-indent: 39.6em;
+    margin-top: 1em;
+    margin-bottom: 12em;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.1em;
     color:#161616;
@@ -120,9 +123,9 @@ hr{
 #bear-title, #lion-title, #alligator-title{
     margin-top: 5em;
     text-align: left;
-    text-indent: 3em;
+    text-indent: 2.5em;
     font-family: cursive;
-    font-size: 2em;
+    font-size: 2.4em;
     letter-spacing: 0.5em;
     color:#161616;
 }
@@ -153,7 +156,8 @@ hr{
     text-indent: 4em;
     font-family:Arial, Helvetica, sans-serif;
     font-size: 1.5em;
-    margin-top: -15.5em;
+    margin-top: -14.5em;
+    margin-bottom: 2em;
     color:black;
 }
 
@@ -165,7 +169,7 @@ hr{
     text-indent: -5.9em;
     font-size: 1.1em;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 2em;
+    margin-bottom: -2em;
     margin-left: 5.4em;
     color: black;
 }
