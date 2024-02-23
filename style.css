@@ -1,6 +1,6 @@
 body{
    /* background-color:#53AD62; */
-   /* background-image: url(./assets/images/nature_background_photo_by_nahil_naseer_on_unsplash.jpg); */
+   background-image: url(./assets/images/nature_background_photo_by_nahil_naseer_on_unsplash.jpg);
    margin-left:15%;
    margin-right:15%;
 }
@@ -10,12 +10,14 @@ summary{
 }
 hr{
     margin-top: -5em;
-    height: 0.3em;
-    background-color: black;
+    height: 1.5em;
+    background-color:#233934;
+    border-style: none;
+    /* opacity: 0; */
 }
 .background{
-    background-color: white;
-    height: 350em; 
+    background-color:rgb(211, 211, 211);
+    height: 260em; 
     padding-top: 3em;
 }
 
@@ -26,11 +28,11 @@ hr{
 
 #zoo-title{
 
-    background-color: none;
+    background-color: rgba(255, 255, 255, 0);
     font-family: cursive;
     font-size: 14.5em;
     letter-spacing: 0.8rem;
-    color:black;
+    color:rgba(0, 0, 0, 0);
     margin-top: 0.66em;
     margin-bottom: -0.5em;
     -webkit-text-stroke-width: 0.05em;
@@ -38,19 +40,19 @@ hr{
 }
 
 #animal-title{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2.5em;
-    color:white;
+    color:rgb(255, 255, 255);
     letter-spacing: 2em;
     padding-top: 1em;
     padding-bottom: 0.4em;
     margin-top: 1em;
-    -webkit-text-stroke-width: 0.08em;
-    -webkit-text-stroke-color: black;
-     border-color: white;
-    border-width: 0.5em;
-    border-bottom-style: double;
+    /* -webkit-text-stroke-width: 0.05em;
+    -webkit-text-stroke-color:rgb(0, 0, 0); */
+     /* border-color:white;
+    border-width: 0.7em;
+    border-bottom-style:solid; */
     /* border-left-style: double; */
     /* border-right-style: double; */
     /* border-top-style: double; */
