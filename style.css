@@ -1,61 +1,75 @@
 body{
    /* background-color:#53AD62; */
-   background-image: url(./assets/images/nature_background_photo_by_nahil_naseer_on_unsplash.jpg);
-   margin-left:15%;
-   margin-right:15%;
+   /* background-image: url(./assets/images/nature_background_photo_by_nahil_naseer_on_unsplash.jpg); */
+   margin-left:20%;
+   margin-right:20%;
 }
 
 summary{
-    font-size: 0.8em;
+    /* font-size: 0.8em; */
 }
 hr{
     margin-top: -5em;
-    height: 1.5em;
-    background-color:#233934;
+    height: 0.1em;
+    background-color: darkorange;
     border-style: none;
-    /* opacity: 0; */
 }
+
 .background{
-    background-color:rgb(211, 211, 211);
+    background-color:#F8F5F2;
     height: 260em; 
     padding-top: 3em;
 }
 
 #main-title{
     text-align: center;
-    margin-top: -13em;
+    margin-top: 10em;
+}
+
+#our-title{
+    font-family: cursive;
+    font-size: 2em;
+    color:darkorange;
+    letter-spacing: 0.8em;
+    margin-bottom: -10em;
+    margin-right: 13.5em;
+    -webkit-text-stroke-width: 0.05em;
+    -webkit-text-stroke-color:darkcyan;
+    transform: rotate(-50deg);
 }
 
 #zoo-title{
-
     background-color: rgba(255, 255, 255, 0);
     font-family: cursive;
     font-size: 14.5em;
-    letter-spacing: 0.8rem;
-    color:rgba(0, 0, 0, 0);
-    margin-top: 0.66em;
-    margin-bottom: -0.5em;
+    letter-spacing: 0.1em;
+    color: #3F9429;
+    margin-top: 0.6em;
+    margin-bottom: -0.57em;
     -webkit-text-stroke-width: 0.05em;
-    -webkit-text-stroke-color:white;
+    -webkit-text-stroke-color: white;
 }
 
 #animal-title{
-    background-color: rgba(0, 0, 0, 0);
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2.5em;
-    color:rgb(255, 255, 255);
-    letter-spacing: 2em;
-    padding-top: 1em;
+    background-color:darkcyan;
+    font-family: cursive;
+    font-size: 2em;
+    color: darkorange;
+    letter-spacing: 1.5em;
+    padding-top: 1.2em;
     padding-bottom: 0.4em;
-    margin-top: 1em;
-    /* -webkit-text-stroke-width: 0.05em;
-    -webkit-text-stroke-color:rgb(0, 0, 0); */
-     /* border-color:white;
-    border-width: 0.7em;
-    border-bottom-style:solid; */
-    /* border-left-style: double; */
-    /* border-right-style: double; */
-    /* border-top-style: double; */
+    margin-top: 1.2em;
+    -webkit-text-stroke-width: 0.05em;
+    -webkit-text-stroke-color: darkcyan;
+    /* width:fit-content; */
+
+    /* border-color: white;
+    border-left-width: 12em;
+    border-right-width: 14.1em;
+    border-bottom-style: none;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-style: none; */
 }
 
 
@@ -65,11 +79,11 @@ hr{
 }
 
 #giraffe-title, #monkey-title{
-    margin-top: 5em;
-    margin-right: 7.7em;
+    margin-top: 7em;
+    margin-right: 14em;
     text-align: right;
     font-family: cursive;
-    font-size: 2.4em;
+    /* font-size: 2.4em; */
     letter-spacing: 0.5em;
     color:#161616;
 }
@@ -80,56 +94,59 @@ hr{
     height: 24em;
     width: 28em; 
     margin-top: -6em;
-    margin-left: 6.5em;
+    margin-left: 5em;
     box-shadow: 10px 10px 12px -2px grey;
 }
 
 
 #giraffe-sum, #monkey-sum{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
+    /* font-size: 1.5em; */
     margin-top: -14.5em;
-    margin-left: 29em;
+    margin-left: 25em;
     margin-bottom: 4em;
 }
 
 #giraffe-names, #monkey-names{
     text-align: left;
-    margin-top: 17em;
-    margin-left: 13em;
+    margin-top: 20em;
+    margin-left: 16.5em;
     list-style: none;
-    font-size: 1.2em;
+    /* font-size: 1.2em; */
     font-family: cursive;
 }
 
 #giraffe-link:hover, #monkey-link:hover{
-    color: grey;
+    color: darkcyan;
+    text-decoration-line: underline;
+    text-underline-offset: 0.3em;
+    text-decoration-color: darkorange;
+    text-decoration-thickness: 0.1em;
 }
 
 #giraffe-link, #monkey-link{
     text-indent: 39.6em;
-    margin-top: 1em;
-    margin-bottom: 12em;
+    text-decoration-line: none;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.1em;
-    color:#161616;
+    color: darkcyan;
+    margin-top: 2em;
+    margin-bottom: 12em;
 }
 
 /* BEAR, LION, ALLIGATOR */
 
 #bear-section, #lion-section, #alligator-section{
     height: 40em;
-
 }
 
 #bear-title, #lion-title, #alligator-title{
-    margin-top: 5em;
+    margin-top: 4em;
     text-align: left;
     text-indent: 2.5em;
     font-family: cursive;
-    font-size: 2.4em;
+    /* font-size: 2em; */
     letter-spacing: 0.5em;
-    color:#161616;
+    color: black;
 }
 
 #bear-img, #lion-img, #alligator-img{
@@ -137,18 +154,18 @@ hr{
     border-radius: 50%;
     height: 24em;
     width: 28em; 
-    margin-right: 6.8em;
-    margin-top: -6em;
+    margin-right: 5em;
+    margin-top: -5em;
     box-shadow: 10px 10px 12px -2px grey;
 }
 
 
 #bear-names, #lion-names, #alligator-names{
     text-align: right;
-    margin-top: 17.5em;
-    margin-right: 16em;
+    margin-top: 21.5em;
+    margin-right: 18em;
     list-style: none;
-    font-size: 1.2em;
+    /* font-size: 1.2em; */
     font-weight: normal;
     font-family: cursive;
     color:black;
@@ -157,21 +174,25 @@ hr{
 #bear-sum, #lion-sum, #alligator-sum{   
     text-indent: 4em;
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 1.5em;
-    margin-top: -14.5em;
+    /* font-size: 1em; */
+    margin-top: -22.5em;
     margin-bottom: 2em;
     color:black;
 }
 
 #bear-link:hover, #lion-link:hover, #alligator-link:hover{
-    color: grey;
+    color: darkcyan;
+    text-decoration-line: underline;
+    text-underline-offset: 0.3em;
+    text-decoration-color: darkorange;
+    text-decoration-thickness: 0.1em;
 }
 
 #bear-link, #lion-link, #alligator-link{
     text-indent: -5.9em;
-    font-size: 1.1em;
+    text-decoration-line: none;
     font-family: Arial, Helvetica, sans-serif;
+    color: darkcyan;
     margin-bottom: -2em;
-    margin-left: 5.4em;
-    color: black;
+    margin-left: 5em;
 }
