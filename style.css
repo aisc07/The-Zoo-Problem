@@ -60,20 +60,27 @@ hr{
     padding-top: 1.2em;
     padding-bottom: 0.4em;
     margin-top: 1.2em;
-    /* -webkit-text-stroke-width: 0.05em; */
-    -webkit-text-stroke-color: darkorange;
+    /* -webkit-text-stroke-width: 0.05em;
+    -webkit-text-stroke-color: white; */
     /* width:fit-content; */
-
-    /* border-color: white;
-    border-left-width: 12em;
-    border-right-width: 14.1em;
+    border-width: 5em;
+    border-color: darkorange;
     border-bottom-style: none;
-    border-left-style: solid;
-    border-right-style: solid;
-    border-top-style: none; */
+    border-left-style: double;
+    border-right-style: double;
+    border-top-style: none;
 }
 
 /* ---------------------------------------------------------------------------- */
+
+p{
+    line-height: 2.5;
+}
+
+#text-box{
+    height: 34em;
+    width: 34em;
+}
 
 /* BEAR, LION, & ALLIGATOR SECTIONS */
 
@@ -82,13 +89,24 @@ hr{
 }
 
 #bear-title, #lion-title, #alligator-title{
-    margin-top: 4em;
+    margin-top: em;
     text-align: left;
-    text-indent: 2.5em;
+    text-indent: 3.3em;
+    /* margin-left: 3.5em; */
     font-family: cursive;
-    /* font-size: 2em; */
-    letter-spacing: 0.5em;
+    font-size: 1.5em;
+    letter-spacing: 0.2em;
     color: black;
+}
+
+#bear-sum, #lion-sum, #alligator-sum{   
+    /* text-indent: 5em; */
+    margin-left: 5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    margin-top: -22.5em;
+    margin-bottom: -15em;
+    color:black;
 }
 
 #bear-img, #lion-img, #alligator-img{
@@ -113,15 +131,6 @@ hr{
     color:black;
 }
 
-#bear-sum, #lion-sum, #alligator-sum{   
-    text-indent: 4em;
-    font-family:Arial, Helvetica, sans-serif;
-    /* font-size: 1em; */
-    margin-top: -22.5em;
-    margin-bottom: 2em;
-    color:black;
-}
-
 #bear-link:hover, #lion-link:hover, #alligator-link:hover{
     color: darkcyan;
     text-decoration-line: underline;
@@ -136,7 +145,7 @@ hr{
     font-family: cursive;
     color: darkcyan;
     margin-bottom: -2em;
-    margin-left: 5em;
+    margin-left: 5.5em;
 }
 
 
@@ -162,8 +171,8 @@ hr{
     margin-right: 14em;
     text-align: right;
     font-family: cursive;
-    /* font-size: 2.4em; */
-    letter-spacing: 0.5em;
+    font-size: 1.5em;
+    letter-spacing: 0.2em;
     color:#161616;
 }
 
@@ -181,9 +190,10 @@ hr{
 #giraffe-sum, #monkey-sum{
     font-family: Arial, Helvetica, sans-serif;
     /* font-size: 1.5em; */
-    margin-top: -14.5em;
-    margin-left: 25em;
+    margin-top: -20.5em;
+    margin-left: 35em;
     margin-bottom: 4em;
+    transform: horizonta;
 }
 
 #giraffe-names, #monkey-names{
@@ -208,7 +218,7 @@ hr{
     text-decoration-line: none;
     font-family: Arial, Helvetica, sans-serif;
     color: darkcyan;
-    margin-top: 2em;
-    margin-bottom: 12em;
+    margin-top: -25em;
+    margin-bottom: 3em;
 }
 
