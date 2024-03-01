@@ -1,25 +1,32 @@
 body{
    /* background-color:#53AD62; */
    /* background-image: url(./assets/images/nature_background_photo_by_nahil_naseer_on_unsplash.jpg); */
-   margin-left:20%;
-   margin-right:20%;
+   margin-left:18%;
+   margin-right:18%;
 }
 
-summary{
-    /* font-size: 0.8em; */
-}
 hr{
-    margin-top: -5em;
-    height: 1.5em;
-    background-color: white;
-    border-style: none;
+    /* margin-top: -5em; */
+    height: 3.35em;
+    background-color: darkorange;
+    border-style: dashed;
+    border-width: 3.35em;
+    border-color: darkcyan;
 }
 
-.background{
+ .background{
     background-color:#F8F5F2;
-    height: 230em; 
+    margin-top: -1.5em;
     padding-top: 3em;
-}
+    height: 275em;  
+    border-style: solid;
+    border-width: 3.35em;
+    border-color: darkcyan;
+    border-top: none;
+    border-bottom: solid;
+    border-bottom-width: 5em;
+    border-bottom-color: darkcyan;
+} 
 
 #main-title{
     text-align: center;
@@ -89,7 +96,7 @@ p{
 }
 
 #bear-title, #lion-title, #alligator-title{
-    margin-top: em;
+    margin-top: 4em;
     text-align: left;
     text-indent: 3.3em;
     /* margin-left: 3.5em; */
@@ -193,7 +200,6 @@ p{
     margin-top: -20.5em;
     margin-left: 35em;
     margin-bottom: 4em;
-    transform: horizonta;
 }
 
 #giraffe-names, #monkey-names{
@@ -216,9 +222,9 @@ p{
 #giraffe-link, #monkey-link{
     text-indent: 39.6em;
     text-decoration-line: none;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: cursive;
     color: darkcyan;
     margin-top: -25em;
-    margin-bottom: 3em;
+    margin-bottom: 12em;
 }
 
