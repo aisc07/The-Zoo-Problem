@@ -7,10 +7,10 @@ body{
 
 hr{
     /* margin-top: -5em; */
-    height: 3.35em;
+    height: 1em;
     background-color: darkorange;
-    border-style: dashed;
-    border-width: 3.35em;
+    border-style: dotted;
+    border-width: 1em;
     border-color: darkcyan;
 }
 
@@ -70,11 +70,11 @@ hr{
     /* -webkit-text-stroke-width: 0.05em;
     -webkit-text-stroke-color: white; */
     /* width:fit-content; */
-    border-width: 5em;
+    border-width: 12em;
     border-color: darkorange;
     border-bottom-style: none;
-    border-left-style: double;
-    border-right-style: double;
+    border-left-style: dotted;
+    border-right-style: dotted;
     border-top-style: none;
 }
 
