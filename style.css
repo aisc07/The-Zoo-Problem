@@ -1,5 +1,5 @@
 body{
-   /* background-color:#53AD62; */
+   background-color: #F8F5F2;
    /* background-image: url(./assets/images/nature_background_photo_by_nahil_naseer_on_unsplash.jpg); */
    margin-left:18%;
    margin-right:18%;
@@ -7,22 +7,29 @@ body{
 
 hr{
     /* margin-top: -5em; */
-    height: 1em;
-    background-color: darkorange;
-    border-style: dotted;
-    border-width: 1em;
-    border-color: darkcyan;
+    height: 3.35em;
+    background-color:darkcyan;
+
+    border-style: solid;
+    /* border-width: 1em; */
+    border-top-width: 0.8em;
+    border-bottom-width: 0.8em;
+    border-left-style: none;
+    border-right-style: none;
+    border-color: darkorange;
 }
 
  .background{
     background-color:#F8F5F2;
     margin-top: -1.5em;
     padding-top: 3em;
-    height: 275em;  
+    height: 230em;  
     border-style: solid;
     border-width: 3.35em;
     border-color: darkcyan;
-    border-top: none;
+    border-top: solid;
+    border-top-width: 3.35em;
+    border-top-color: darkcyan;
     border-bottom: solid;
     border-bottom-width: 5em;
     border-bottom-color: darkcyan;
@@ -40,6 +47,7 @@ hr{
     letter-spacing: 0.7em;
     margin-bottom: -10em;
     margin-right: 13.5em;
+    margin-left: 1.5em;
     -webkit-text-stroke-width: 0.03em;
     -webkit-text-stroke-color:darkorange;
     transform: rotate(-50deg);
@@ -53,28 +61,31 @@ hr{
     color: darkorange;
     margin-top: 0.6em;
     margin-bottom: -0.57em;
+    padding-left: 0.16em;
     -webkit-text-stroke-width: 0.05em;
-    -webkit-text-stroke-color: white;
+    -webkit-text-stroke-color: #F8F5F2;
 }
 
 #animal-title{
     background-color: darkcyan;
     font-family: cursive;
     font-size: 2em;
-    /* font-style: italic; */
     color: darkorange;
     letter-spacing: 1.5em;
     padding-top: 1.2em;
     padding-bottom: 0.4em;
+    padding-left: 1.3em;
     margin-top: 1.2em;
+
     /* -webkit-text-stroke-width: 0.05em;
     -webkit-text-stroke-color: white; */
     /* width:fit-content; */
-    border-width: 12em;
+    border-left-width: 10em;
+    border-right-width: 10em;
     border-color: darkorange;
     border-bottom-style: none;
-    border-left-style: dotted;
-    border-right-style: dotted;
+    border-left-style: double;
+    border-right-style: double;
     border-top-style: none;
 }
 
@@ -86,13 +97,21 @@ p{
 
 #text-box{
     height: 34em;
-    width: 34em;
+    width: 29em;
+}
+
+
+#giraffe-text-box{
+    height: 34em;
+    width: 27em;
+    margin-left:2em
+
 }
 
 /* BEAR, LION, & ALLIGATOR SECTIONS */
 
 #bear-section, #lion-section, #alligator-section{
-    height: 40em;
+    height: 34em;
 }
 
 #bear-title, #lion-title, #alligator-title{
@@ -102,8 +121,8 @@ p{
     /* margin-left: 3.5em; */
     font-family: cursive;
     font-size: 1.5em;
-    letter-spacing: 0.2em;
-    color: black;
+    letter-spacing: 0.5em;
+    color: darkcyan;
 }
 
 #bear-sum, #lion-sum, #alligator-sum{   
@@ -111,8 +130,8 @@ p{
     margin-left: 5em;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
-    margin-top: -22.5em;
-    margin-bottom: -15em;
+    margin-top: -23.5em;
+    margin-bottom: -12em;
     color:black;
 }
 
@@ -122,14 +141,14 @@ p{
     height: 24em;
     width: 28em; 
     margin-right: 5em;
-    margin-top: -5em;
+    margin-top: -4em;
     box-shadow: 10px 10px 12px -2px grey;
 }
 
 
 #bear-names, #lion-names, #alligator-names{
     text-align: right;
-    margin-top: 21.5em;
+    margin-top: 22.5em;
     margin-right: 18em;
     list-style: none;
     /* font-size: 1.2em; */
@@ -170,7 +189,7 @@ p{
 
 /*GIRAFFE, MONKEY*/
 #giraffe-section, #monkey-section{
-    height: 40em;
+    height: 34em;
 }
 
 #giraffe-title, #monkey-title{
@@ -180,7 +199,7 @@ p{
     font-family: cursive;
     font-size: 1.5em;
     letter-spacing: 0.2em;
-    color:#161616;
+    color: darkcyan;
 }
 
 #giraffe-img, #monkey-img{
@@ -225,7 +244,7 @@ p{
     text-decoration-line: none;
     font-family: cursive;
     color: darkcyan;
-    margin-top: -25em;
+    margin-top: -12em;
     margin-bottom: 12em;
 }
 
