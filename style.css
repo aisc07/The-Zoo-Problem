@@ -9,11 +9,10 @@ hr{
     /* margin-top: -5em; */
     height: 3.35em;
     background-color:darkcyan;
-
     border-style: solid;
     /* border-width: 1em; */
-    border-top-width: 0.8em;
-    border-bottom-width: 0.8em;
+    border-top-width: 1em;
+    border-bottom-style: none;
     border-left-style: none;
     border-right-style: none;
     border-color: darkorange;
@@ -23,7 +22,7 @@ hr{
     background-color:#F8F5F2;
     margin-top: -1.5em;
     padding-top: 3em;
-    height: 230em;  
+    height: 240em;  
     border-style: solid;
     border-width: 3.35em;
     border-color: darkcyan;
