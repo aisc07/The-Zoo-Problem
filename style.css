@@ -19,7 +19,7 @@ hr{
 }
 
  .background{
-    background-color:#F8F5F2;
+    background-color: lightcyan;
     margin-top: -1.5em;
     padding-top: 3em;
     height: 240em;  
@@ -114,14 +114,14 @@ p{
 }
 
 #bear-title, #lion-title, #alligator-title{
-    margin-top: 4em;
+    margin-top: 2em;
     text-align: left;
-    text-indent: 3.3em;
+    text-indent: 3em;
     /* margin-left: 3.5em; */
     font-family: cursive;
-    font-size: 1.5em;
+    font-size: 1.6em;
     letter-spacing: 0.5em;
-    color: darkcyan;
+    color: darkorange;
 }
 
 #bear-sum, #lion-sum, #alligator-sum{   
@@ -156,7 +156,8 @@ p{
     color:black;
 }
 
-#bear-link:hover, #lion-link:hover, #alligator-link:hover{
+
+#bear-a:hover, #lion-a:hover, #alligator-a:hover{
     color: darkcyan;
     text-decoration-line: underline;
     text-underline-offset: 0.3em;
@@ -164,7 +165,7 @@ p{
     text-decoration-thickness: 0.1em;
 }
 
-#bear-link, #lion-link, #alligator-link{
+#bear-a, #lion-a, #alligator-a{
     text-indent: -5.9em;
     text-decoration-line: none;
     font-family: cursive;
@@ -173,6 +174,9 @@ p{
     margin-left: 5.5em;
 }
 
+/* #bear-a:visited, #lion-a:visited, #alligator-a:visited{
+    color: darkgrey;
+} */
 
 
 
@@ -230,7 +234,7 @@ p{
     font-family: cursive;
 }
 
-#giraffe-link:hover, #monkey-link:hover{
+#giraffe-a:hover, #monkey-a:hover{
     color: darkcyan;
     text-decoration-line: underline;
     text-underline-offset: 0.3em;
@@ -238,7 +242,7 @@ p{
     text-decoration-thickness: 0.1em;
 }
 
-#giraffe-link, #monkey-link{
+#giraffe-a, #monkey-a{
     text-indent: 39.6em;
     text-decoration-line: none;
     font-family: cursive;
