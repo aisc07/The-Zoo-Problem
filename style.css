@@ -19,7 +19,7 @@ hr{
 }
 
  .background{
-    background-color: lightcyan;
+    background-color: #F8F5F2;
     margin-top: -1.5em;
     padding-top: 3em;
     height: 240em;  
@@ -121,7 +121,7 @@ p{
     font-family: cursive;
     font-size: 1.6em;
     letter-spacing: 0.5em;
-    color: darkorange;
+    color: darkcyan;
 }
 
 #bear-sum, #lion-sum, #alligator-sum{   
